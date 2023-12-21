@@ -33,6 +33,31 @@
 		<link rel='stylesheet' href='css/overlay.css' />
 		<link rel='stylesheet' href='css/component.css' />
 
+		<style>
+
+		::-webkit-scrollbar {
+			height: 2px;
+		}
+		
+		.talk {
+			margin: 5px;
+			padding: 5px;
+			border-radius: 10px;
+			#color: white;
+		}
+
+		.talkin {
+			color: blue;
+			background-color: lightblue;
+		}
+
+		.talkout {
+			color: green;
+			background-color: lightgreen;
+		}
+
+		</style>
+
 	</head>
 
 	<body>
@@ -66,13 +91,15 @@
 			<div class="bottom middle mmw-overlay">
 				<div class="mmw-overlay-group" id="bottombar"></div>
 			</div>
-							
+
 		</div>
 
 		<!--<script type='module' src='index.js'></script>-->
+		
 		<script src='mmw.js'></script>
 		<script src='index.js'></script>
-		<!--<script src='http://localhost:8080/stats/stats.js'></script>-->
+
+		<!--<script defer src='http://localhost:8080/stats/stats.js'></script>-->
 		<script defer src='../stats/stats.js'></script>
 
 	</body>
